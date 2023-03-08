@@ -93,7 +93,7 @@ var defaults = [
     presentHorizontally: false
   },
   "EPDashedSentence", {
-    mode: "speeded acceptability",
+    mode: "self-paced reading",
     display: "in place"
   }
 ];
