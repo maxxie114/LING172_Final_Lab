@@ -82,9 +82,9 @@ function blank(a, b) {
 var DS = 'EPDashedSentence';
 
 //  Set the Prolific Academic Completion URL
-var sendingResultsMessage = "Please wait. Your data are being sent to the server.";
-var completionMessage = "Thank you for your participation. Your completion code is 592EE400. To complete this experiment, go to: https://app.prolific.co/submissions/complete?cc=592EE400";
-var completionErrorMessage = "There was an error in sending your data to the server. You may still complete this experiment. Your completion code is 592EE400. Please go to: https://app.prolific.co/submissions/complete?cc=592EE400";
+var sendingResultsMessage = "Please wait. Your data is being sent to the server.";
+var completionMessage = "Thank you for your participation! Your responses have been stored, and you are free to close out of the experiment.";
+var completionErrorMessage = "There was an error in sending your data to the server. You may still complete this experiment, but you may have to go through it again.";
 
 // Controller settings.
 var defaults = [
