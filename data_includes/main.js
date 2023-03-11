@@ -1,8 +1,7 @@
 PennController.ResetPrefix(null); // Shorten command names (keep this line here)
 
-// Enable debug for now
-// Make sure to disable this
-// PennController.DebugOff();
+// Disable debug
+PennController.DebugOff();
 
 // var counterOverride = 5;
 
