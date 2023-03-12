@@ -6,3 +6,11 @@
 .continue-link { text-decoration: none; color: blue; }
 .continue-link:hover { text-decoration: underline; color: blue; }
 .continue-link:visited { color: blue; }
+
+.continue-button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: blue;
+  color: white;
+}
