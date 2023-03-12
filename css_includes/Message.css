@@ -8,6 +8,7 @@
 .continue-link:visited { color: blue; }
 
 .continue-button {
+  margin-top: 20px;
   width: 200px;
   height: 50px;
   border: none;
