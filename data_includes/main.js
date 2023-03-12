@@ -14,28 +14,8 @@ var shuffleSequence = seq(
   'practice2',
   'practice3',
   'shared-intro',
-  sepWith("timeoutSep", rshuffle(startsWith("RIPPERONI-a"),
-                                 startsWith("RIPPERONI-b"),
-                                 startsWith("RIPPERONI-c"),
-                                 startsWith("RIPPERONI-d"),
-                                 startsWith("RIPPERONI-e"),
-                                 startsWith("RIPPERONI-f"),
-                                 startsWith("RIPPERONI-g"),
-                                 startsWith("RIPPERONI-h"),
-                                 startsWith("MOZZARELLA-a"),
-                                 startsWith("MOZZARELLA-b"),
-                                 startsWith("MOZZARELLA-c"),
-                                 startsWith("MOZZARELLA-d"),
-                                 startsWith("MOZZARELLA-e"),
-                                 startsWith("MOZZARELLA-f"),
-                                 startsWith("MOZZARELLA-g"),
-                                 startsWith("MOZZARELLA-h"),
-                                 startsWith("ILOSTMYMARBLES-a"),
-                                 startsWith("ILOSTMYMARBLES-b"),
-                                 startsWith("ILOSTMYMARBLES-c"),
-                                 startsWith("ILOSTMYMARBLES-d")
-                                )
-         ),
+  sepWith("timeoutSep", rshuffle(startsWith("RIPPERONI"), startsWith("MOZZARELLA")), rshuffle(startsWith("ILOSTMYMARBLES-a"),
+                                 startsWith("ILOSTMYMARBLES-b"), startsWith("ILOSTMYMARBLES-c"), startsWith("ILOSTMYMARBLES-d"))),
   'debrief'
 );
 
