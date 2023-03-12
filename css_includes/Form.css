@@ -2,3 +2,17 @@
     color: red;
     font-weight: bold;
 }
+
+.centered-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Message-continue-button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: blue;
+  color: white;
+}
