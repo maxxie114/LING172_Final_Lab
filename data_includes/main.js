@@ -49,7 +49,7 @@ function blank(a, b) {
    for (var i = 0; i < seq.length; ++i) {
        if (typeof(seq[i]) == "number") {
            ++bcount;
-           var input = " <textarea name='blank-" + bcount + "' cols='" + (n ? n : seq[i]) + "' rows='5'></textarea> ";
+           var input = " <br><br><textarea name='blank-" + bcount + "' maxlength='" + (n ? n : seq[i]) + "' cols='100' rows='5'></textarea> ";
            ihtml += input;
        }
        else {
