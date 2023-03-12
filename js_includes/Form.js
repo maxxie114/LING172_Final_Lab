@@ -151,7 +151,7 @@ jqueryWidget: {
 
         if (this.continueMessage) {
             this.element.append($("<div>").addClass(t.cssPrefix + "centered-button")
-                                         .append($("<button>").text("\u2192 " + this.continueMessage)
+                                         .append($("<button>").text(this.continueMessage)
                                                              .addClass(ibex_controller_name_to_css_prefix("Message") + "continue-button")
                                                              .click(handler)));
         }
