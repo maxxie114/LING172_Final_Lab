@@ -65,7 +65,7 @@ jqueryWidget: {
                     .css('clear', 'left')
                         .append($(document.createElement("a"))
                             .attr('href', '')
-                            .addClass(t.cssPrefix + 'continue-button')
+                            .addClass(t.cssPrefix + 'continue-link')
                             .text(t.continueMessage)
                             .click(function () {
                                 if ((! checkbox) || checkbox.attr('checked'))
