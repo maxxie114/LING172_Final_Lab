@@ -14,7 +14,7 @@ var shuffleSequence = seq(
   'practice2',
   'practice3',
   'shared-intro',
-  sepWith("timeoutSep", rshuffle(startsWith("ILOSTMYMARBLES"), startsWith("RIPPERONI"), startswith("MOZZARELLA"))),
+  sepWith("timeoutSep", rshuffle(startsWith("ILOSTMYMARBLES"), startsWith("RIPPERONI"), startsWith("MOZZARELLA"))),
   'debrief'
 );
 
